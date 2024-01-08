@@ -35,7 +35,7 @@ const Add = () => {
       .then(response => response.json())
       .then(result => {
         alert(result.msg);
-        window.location.href = "index.html";
+        window.location.href = "https://property-store.vercel.app/";
       })
       .catch(e => console.log(e));
   };
